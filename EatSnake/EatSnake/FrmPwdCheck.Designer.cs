@@ -38,27 +38,27 @@ namespace EatSnake
             // label_open
             // 
             this.label_open.AutoSize = true;
-            this.label_open.Font = new System.Drawing.Font("宋体", 11F);
+            this.label_open.Font = new System.Drawing.Font("宋体", 20F);
             this.label_open.Location = new System.Drawing.Point(50, 52);
             this.label_open.Name = "label_open";
-            this.label_open.Size = new System.Drawing.Size(161, 19);
+            this.label_open.Size = new System.Drawing.Size(287, 34);
             this.label_open.TabIndex = 0;
             this.label_open.Text = "请输入登录密码：";
             // 
             // textBox_pwd
             // 
-            this.textBox_pwd.Location = new System.Drawing.Point(217, 46);
+            this.textBox_pwd.Location = new System.Drawing.Point(324, 61);
             this.textBox_pwd.Name = "textBox_pwd";
             this.textBox_pwd.PasswordChar = '*';
-            this.textBox_pwd.Size = new System.Drawing.Size(248, 25);
+            this.textBox_pwd.Size = new System.Drawing.Size(237, 25);
             this.textBox_pwd.TabIndex = 1;
             // 
             // btOK
             // 
-            this.btOK.Font = new System.Drawing.Font("宋体", 12F);
-            this.btOK.Location = new System.Drawing.Point(110, 143);
+            this.btOK.Font = new System.Drawing.Font("宋体", 20F);
+            this.btOK.Location = new System.Drawing.Point(86, 175);
             this.btOK.Name = "btOK";
-            this.btOK.Size = new System.Drawing.Size(101, 43);
+            this.btOK.Size = new System.Drawing.Size(136, 55);
             this.btOK.TabIndex = 2;
             this.btOK.Text = "确定";
             this.btOK.UseVisualStyleBackColor = true;
@@ -66,10 +66,10 @@ namespace EatSnake
             // 
             // btCancel
             // 
-            this.btCancel.Font = new System.Drawing.Font("宋体", 12F);
-            this.btCancel.Location = new System.Drawing.Point(269, 143);
+            this.btCancel.Font = new System.Drawing.Font("宋体", 20F);
+            this.btCancel.Location = new System.Drawing.Point(338, 175);
             this.btCancel.Name = "btCancel";
-            this.btCancel.Size = new System.Drawing.Size(196, 43);
+            this.btCancel.Size = new System.Drawing.Size(198, 55);
             this.btCancel.TabIndex = 3;
             this.btCancel.Text = "退出游戏";
             this.btCancel.UseVisualStyleBackColor = false;
@@ -79,7 +79,7 @@ namespace EatSnake
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(592, 253);
+            this.ClientSize = new System.Drawing.Size(636, 298);
             this.Controls.Add(this.btCancel);
             this.Controls.Add(this.btOK);
             this.Controls.Add(this.textBox_pwd);

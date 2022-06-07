@@ -9,3 +9,14 @@ D:\CSharp\class\EatSnake\EatSnake\bin\Debug\EatSnake.pdb
 D:\CSharp\class\EatSnake\EatSnake\obj\Debug\EatSnake.exe
 D:\CSharp\class\EatSnake\EatSnake\obj\Debug\EatSnake.pdb
 D:\CSharp\class\EatSnake\EatSnake\obj\Debug\EatSnake.FrmPwdCheck.resources
+D:\GIthub\My_project\Greedy snake\EatSnake\EatSnake\bin\Debug\EatSnake.exe.config
+D:\GIthub\My_project\Greedy snake\EatSnake\EatSnake\bin\Debug\EatSnake.exe
+D:\GIthub\My_project\Greedy snake\EatSnake\EatSnake\bin\Debug\EatSnake.pdb
+D:\GIthub\My_project\Greedy snake\EatSnake\EatSnake\obj\Debug\EatSnake.csproj.AssemblyReference.cache
+D:\GIthub\My_project\Greedy snake\EatSnake\EatSnake\obj\Debug\EatSnake.Form1.resources
+D:\GIthub\My_project\Greedy snake\EatSnake\EatSnake\obj\Debug\EatSnake.FrmPwdCheck.resources
+D:\GIthub\My_project\Greedy snake\EatSnake\EatSnake\obj\Debug\EatSnake.Properties.Resources.resources
+D:\GIthub\My_project\Greedy snake\EatSnake\EatSnake\obj\Debug\EatSnake.csproj.GenerateResource.cache
+D:\GIthub\My_project\Greedy snake\EatSnake\EatSnake\obj\Debug\EatSnake.csproj.CoreCompileInputs.cache
+D:\GIthub\My_project\Greedy snake\EatSnake\EatSnake\obj\Debug\EatSnake.exe
+D:\GIthub\My_project\Greedy snake\EatSnake\EatSnake\obj\Debug\EatSnake.pdb
