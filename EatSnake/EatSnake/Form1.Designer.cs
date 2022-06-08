@@ -38,13 +38,14 @@ namespace EatSnake
             this.btEnterGame = new System.Windows.Forms.Button();
             this.btSign = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label_Select = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label_difficulty = new System.Windows.Forms.Label();
             this.label_score = new System.Windows.Forms.Label();
             this.label_over = new System.Windows.Forms.Label();
             this.btStart = new System.Windows.Forms.Button();
             this.label_EndScore = new System.Windows.Forms.Label();
+            this.label_Select = new System.Windows.Forms.Label();
+            this.button_return = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btEnter
@@ -142,17 +143,7 @@ namespace EatSnake
             this.comboBox1.TabIndex = 7;
             this.comboBox1.Text = "简单";
             this.comboBox1.Visible = false;
-            // 
-            // label_Select
-            // 
-            this.label_Select.AutoSize = true;
-            this.label_Select.Font = new System.Drawing.Font("宋体", 30F);
-            this.label_Select.Location = new System.Drawing.Point(15, 636);
-            this.label_Select.Name = "label_Select";
-            this.label_Select.Size = new System.Drawing.Size(247, 50);
-            this.label_Select.TabIndex = 8;
-            this.label_Select.Text = "难度选择:";
-            this.label_Select.Visible = false;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // timer1
             // 
@@ -216,12 +207,35 @@ namespace EatSnake
             this.label_EndScore.Text = "分数：";
             this.label_EndScore.Visible = false;
             // 
+            // label_Select
+            // 
+            this.label_Select.AutoSize = true;
+            this.label_Select.Font = new System.Drawing.Font("宋体", 30F);
+            this.label_Select.Location = new System.Drawing.Point(15, 636);
+            this.label_Select.Name = "label_Select";
+            this.label_Select.Size = new System.Drawing.Size(247, 50);
+            this.label_Select.TabIndex = 8;
+            this.label_Select.Text = "难度选择:";
+            this.label_Select.Visible = false;
+            // 
+            // button_return
+            // 
+            this.button_return.Font = new System.Drawing.Font("宋体", 18F);
+            this.button_return.Location = new System.Drawing.Point(400, 570);
+            this.button_return.Name = "button_return";
+            this.button_return.Size = new System.Drawing.Size(177, 46);
+            this.button_return.TabIndex = 15;
+            this.button_return.Text = "返回大厅";
+            this.button_return.UseVisualStyleBackColor = true;
+            this.button_return.Click += new System.EventHandler(this.button_return_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(981, 752);
+            this.Controls.Add(this.button_return);
             this.Controls.Add(this.label_EndScore);
             this.Controls.Add(this.label_over);
             this.Controls.Add(this.btStart);
@@ -257,13 +271,14 @@ namespace EatSnake
         private System.Windows.Forms.Button btEnterGame;
         private System.Windows.Forms.Button btSign;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label_Select;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label_difficulty;
         private System.Windows.Forms.Label label_score;
         private System.Windows.Forms.Label label_over;
         private System.Windows.Forms.Button btStart;
         private System.Windows.Forms.Label label_EndScore;
+        private System.Windows.Forms.Label label_Select;
+        private System.Windows.Forms.Button button_return;
     }
 }
 
